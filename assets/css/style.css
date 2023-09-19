@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+/*reset CSS*/
+*,*::before, *,::after{
+    box-sizing: border-box;
+}
+*{margin:0;}
+html, body{
+    height:100%;
+    margin:0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    line-height: 1.5;
+    background-color: #f7daa4;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    z-index: 0;   
+    
+}
+img, picture, video, canvas, svg{
+    
+    max-width:50rem;
+    max-height: 60rem; 
+}
+input, button, textarea, select{
+    font:inherit;
+}
+h1, h2, h3, h4, h5, h6{
+    overflow-wrap: break-word;
+}
+ul{
+    padding:0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    
+}
+/* reset */
+
+main {
+    display:flex;
+    /* flex-wrap: wrap; */    
+    justify-content: space-between;
+    
+}
+p{ font-size: 1.3rem;}
+.wrapper{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.wrapper-w{
+    max-width: 130rem;
+    margin: 0 auto;
+}
+.dates{
+    font-size: 1.8rem;
+}
+.desc{
+    font-size: 1.4rem;
+}
+
+address{
+    /* line-height: 1.1; */
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+span.street{
+
+    font-weight: 400;
+}
+.infos{
+    display:inline-block;
+    padding: .5rem;
+    border: 3px solid green;
+    font-size: 1.6rem;
+    font-weight:600
+}
+.art{
+    display: flex;
+    gap:.8rem
+}
+
+.large{
+    max-height: 100%;
+    max-width: 50vw;
+    object-fit: contain;
+    display: inline-block;
+    
+}
+.large:hover{
+    transform: scale(1.5) translateX(-30%) translatey(15%) ;
+    transition-duration: 200ms;
+    
+}
+.desc_short{
+    display: none;
+}
